@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="calculadora">
+        <section class="tela">
+            <div id="expressao" class="expressao"></div>
+            <div id="resultado" class="resultado">0</div>
+        </section>
+
+        <section class="botoes">
+            <button class="botao especial" data-action="clear">AC</button>
+            <button class="botao especial" data-action="sign">+/−</button>
+            <button class="botao especial" data-action="percent">%</button>
+            <button class="botao operador" data-action="divide">÷</button>
+
+            <button class="botao" data-number="7">7</button>
+            <button class="botao" data-number="8">8</button>
+            <button class="botao" data-number="9">9</button>
+            <button class="botao operador" data-action="multiply">×</button>
+
+            <button class="botao" data-number="4">4</button>
+            <button class="botao" data-number="5">5</button>
+            <button class="botao" data-number="6">6</button>
+            <button class="botao operador" data-action="subtract">−</button>
+
+            <button class="botao" data-number="1">1</button>
+            <button class="botao" data-number="2">2</button>
+            <button class="botao" data-number="3">3</button>
+            <button class="botao operador" data-action="add">+</button>
+
+            <button class="botao especial" data-action="backspace">⌫</button>
+            <button class="botao" data-number="0">0</button>
+            <button class="botao" data-action="decimal">,</button>
+            <button class="botao operador" data-action="equals">=</button>
+        </section>
+    </main>
+
+</body>
+</html>
+
